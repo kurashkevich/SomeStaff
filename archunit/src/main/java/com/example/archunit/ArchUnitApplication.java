@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ArchUnitApplication {
 
     public static void main(String[] args) {
+        System.out.println("Arch started");
         SpringApplication.run(ArchUnitApplication.class, args);
     }
 
